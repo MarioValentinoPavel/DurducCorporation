@@ -1,0 +1,11 @@
+{
+  "name": "durduc-corporation",
+  "version": "1.0.0",
+  "description": "Sitio web de Durduc Corporation, agencia de marketing (ES/CA/RO).",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "Durduc Corporation",
+  "license": "UNLICENSED"
+}

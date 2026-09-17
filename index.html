@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durduc Corporation — Agencia de marketing</title>
+  <meta name="description" content="Branding, diseño web, redes sociales y publicidad para marcas que quieren dejar de pasar desapercibidas.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖤</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="cursor" id="cursor"></div>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">
+      <b>DURDUC</b>
+      <span>corporation</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#servicios" data-i18n="nav_services">Servicios</a>
+      <a href="#nosotros" data-i18n="nav_about">Nosotros</a>
+      <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+    </nav>
+    <div class="nav-right">
+      <div class="langs" data-langs>
+        <button data-lang="es" class="active">ES</button>
+        <button data-lang="ca">CA</button>
+        <button data-lang="ro">RO</button>
+      </div>
+      <a href="#contacto" class="btn btn-solid btn-nav" data-i18n="nav_cta">Hablemos</a>
+      <button class="burger" id="burgerBtn" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close" id="closeMenu">✕</button>
+  <a href="#servicios" data-i18n="nav_services">Servicios</a>
+  <a href="#nosotros" data-i18n="nav_about">Nosotros</a>
+  <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+  <div class="langs" data-langs>
+    <button data-lang="es" class="active">ES</button>
+    <button data-lang="ca">CA</button>
+    <button data-lang="ro">RO</button>
+  </div>
+</div>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero_eyebrow">DURDUC CORPORATION · AGENCIA DE MARKETING</p>
+        <h1 data-i18n-html="hero_title_html">Marcas que <em>se notan</em>.</h1>
+        <p class="hero-sub" data-i18n="hero_sub">Branding, diseño web, redes sociales y publicidad para marcas que quieren dejar de pasar desapercibidas.</p>
+        <div class="hero-ctas">
+          <a href="#contacto" class="btn btn-solid" data-i18n="hero_cta_primary">Empecemos tu proyecto</a>
+          <a href="#servicios" class="btn btn-ghost" data-i18n="hero_cta_secondary">Ver servicios</a>
+        </div>
+        <div class="scroll-cue"><span class="dot"></span><span data-i18n="hero_eyebrow2">Descubre más</span></div>
+      </div>
+      <div class="photo-panel photo-mood-2 hero-photo reveal">
+        <img src="images/hero.jpg" alt="Fundadora de Durduc Corporation" style="object-position:50% 18%;">
+        <div class="tone"></div>
+        <div class="frame"></div>
+        <div class="hero-photo-mark"><b>Durduc</b><span>Corporation</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span data-i18n="marquee_text">
+        <b>BRANDING</b>·<b>DISEÑO WEB</b>·<b>REDES SOCIALES</b>·<b>PUBLICIDAD</b>·<b>CONTENIDO</b>
+      </span>
+      <span aria-hidden="true">
+        <b>BRANDING</b>·<b>DISEÑO WEB</b>·<b>REDES SOCIALES</b>·<b>PUBLICIDAD</b>·<b>CONTENIDO</b>
+      </span>
+    </div>
+  </div>
+
+  <section class="quote">
+    <div class="wrap">
+      <blockquote class="reveal"><span class="drop" data-i18n="quote_drop">E</span><span data-i18n="quote_rest">l marketing no tiene que ser aburrido para funcionar.</span>
+        <cite data-i18n="quote_cite">— Durduc Corporation</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="services_eyebrow">QUÉ HACEMOS</p>
+        <h2 data-i18n="services_title">Todo lo que tu marca necesita para destacar.</h2>
+      </div>
+
+      <div class="services-grid reveal">
+        <div class="service">
+          <span class="service-num">01</span>
+          <h3 data-i18n="service1_title">Branding &amp; Identidad</h3>
+          <span class="service-hook" data-i18n="service1_hook">Una marca que se recuerda a la primera.</span>
+          <p class="service-desc" data-i18n="service1_desc">Naming, logotipo, paleta y guía de estilo pensados para que tu marca se reconozca en cualquier sitio.</p>
+          <div class="service-ctas">
+            <a href="#contacto" class="service-more"><span data-i18n="more_info">Más información</span> ›</a>
+            <a href="#contacto" class="btn btn-solid"><span data-i18n="service1_cta">Quiero mi identidad</span></a>
+          </div>
+        </div>
+        <div class="service">
+          <span class="service-num">02</span>
+          <h3 data-i18n="service2_title">Diseño Web</h3>
+          <span class="service-hook" data-i18n="service2_hook">Una web que enamora y que vende.</span>
+          <p class="service-desc" data-i18n="service2_desc">Sitios rápidos, cuidados al detalle y pensados para convertir visitas en clientes reales.</p>
+          <div class="service-ctas">
+            <a href="#contacto" class="service-more"><span data-i18n="more_info">Más información</span> ›</a>
+            <a href="#contacto" class="btn btn-solid"><span data-i18n="service2_cta">Quiero mi web</span></a>
+          </div>
+        </div>
+        <div class="service">
+          <span class="service-num">03</span>
+          <h3 data-i18n="service3_title">Redes Sociales</h3>
+          <span class="service-hook" data-i18n="service3_hook">Presencia constante, sin que tú muevas un dedo.</span>
+          <p class="service-desc" data-i18n="service3_desc">Estrategia, contenido y calendario editorial gestionados de principio a fin, con resultados medibles.</p>
+          <div class="service-ctas">
+            <a href="#contacto" class="service-more"><span data-i18n="more_info">Más información</span> ›</a>
+            <a href="#contacto" class="btn btn-solid"><span data-i18n="service3_cta">Quiero gestionar mis redes</span></a>
+          </div>
+        </div>
+        <div class="service">
+          <span class="service-num">04</span>
+          <h3 data-i18n="service4_title">Publicidad &amp; Performance</h3>
+          <span class="service-hook" data-i18n="service4_hook">Campañas que generan resultados, no solo alcance.</span>
+          <p class="service-desc" data-i18n="service4_desc">Publicidad en Meta y Google optimizada al detalle, con informes claros mes a mes.</p>
+          <div class="service-ctas">
+            <a href="#contacto" class="service-more"><span data-i18n="more_info">Más información</span> ›</a>
+            <a href="#contacto" class="btn btn-solid"><span data-i18n="service4_cta">Quiero más clientes</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow" data-i18n="about_eyebrow">QUIÉNES SOMOS</p>
+          <h2 data-i18n="about_title">Una agencia con nombre propio, no un departamento anónimo.</h2>
+          <p data-i18n="about_p1">Durduc Corporation nace con una idea simple: el marketing funciona mejor cuando hay alguien detrás que se lo toma como propio. Cada proyecto se piensa a medida, sin plantillas ni respuestas automáticas.</p>
+          <p data-i18n="about_p2">Cuando trabajas con nosotros, hablas siempre con la misma persona: quien diseña la estrategia es quien la ejecuta y quien te la explica.</p>
+          <a href="#contacto" class="btn btn-ghost" style="margin-top:8px;width:fit-content;" data-i18n="about_cta">Conoce cómo trabajamos</a>
+        </div>
+        <div class="about-visual reveal">
+          <div class="photo-panel photo-mood-1 photo-a">
+            <img src="images/about.jpg" alt="Fundadora de Durduc Corporation" style="object-position:50% 22%;">
+            <div class="tone"></div><div class="frame"></div>
+          </div>
+          <div class="photo-panel photo-mood-3 photo-b">
+            <img src="images/hero.jpg" alt="Fundadora de Durduc Corporation" style="object-position:50% 8%;">
+            <div class="tone"></div><div class="frame"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat"><b>&lt;24h</b><span data-i18n="stat1_label">Tiempo de respuesta</span></div>
+        <div class="stat"><b>100%</b><span data-i18n="stat2_label">Proyectos a medida</span></div>
+        <div class="stat"><b>3</b><span data-i18n="stat3_label">Idiomas, un mismo equipo</span></div>
+        <div class="stat"><b>0</b><span data-i18n="stat4_label">Permanencia obligatoria</span></div>
+      </div>
+
+      <div style="margin-top:100px;">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <p class="eyebrow" data-i18n="why_eyebrow">POR QUÉ DURDUC</p>
+          <h2 data-i18n="why_title">Trato cercano y resultados que no dependen de la suerte.</h2>
+          <p style="color:var(--cream-dim);font-size:15px;" data-i18n="why_sub">Nada de plantillas ni contratos eternos. Cada decisión se toma pensando en tu negocio, no en la comodidad de la agencia.</p>
+        </div>
+        <div class="why-list reveal">
+          <div class="why-item">
+            <span class="n">01</span>
+            <h3 data-i18n="why1_title">Sin permanencia</h3>
+            <p data-i18n="why1_desc">Trabajamos mes a mes. Una buena relación se sostiene con resultados, no con letra pequeña.</p>
+          </div>
+          <div class="why-item">
+            <span class="n">02</span>
+            <h3 data-i18n="why2_title">Informes claros</h3>
+            <p data-i18n="why2_desc">Sabrás siempre en qué se invierte cada euro, sin tecnicismos ni excusas.</p>
+          </div>
+          <div class="why-item">
+            <span class="n">03</span>
+            <h3 data-i18n="why3_title">Un único interlocutor</h3>
+            <p data-i18n="why3_desc">Hablas siempre con quien lleva tu proyecto, nunca con un buzón de voz.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta2 reveal">
+        <p class="eyebrow" data-i18n="cta2_eyebrow">SIGUIENTE PASO</p>
+        <h2 data-i18n="cta2_title">Démosle a tu marca el lugar que merece.</h2>
+        <p data-i18n="cta2_sub">Cuéntanos tu proyecto y te decimos, sin compromiso, por dónde empezar.</p>
+        <a href="#contacto" class="btn btn-solid" data-i18n="cta2_button">Cuéntanos tu proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="contact_eyebrow">HABLEMOS</p>
+        <h2 data-i18n="contact_title">Escríbenos y empecemos.</h2>
+        <p style="color:var(--cream-dim);font-size:15px;" data-i18n="contact_sub">Respondemos en menos de 24 horas con una propuesta concreta, no con un formulario automático.</p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <a href="mailto:hola@durduccorporation.com">✉ &nbsp; hola@durduccorporation.com</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener">◎ &nbsp; @durduc.corporation</a>
+          <a href="#contacto">☏ &nbsp; +34 600 000 000</a>
+        </div>
+
+        <form id="contactForm">
+          <div class="row2">
+            <div class="field">
+              <label data-i18n="form_name">Nombre</label>
+              <input type="text" id="f-name" required>
+            </div>
+            <div class="field">
+              <label data-i18n="form_email">Email</label>
+              <input type="email" id="f-email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label data-i18n="form_company">Empresa (opcional)</label>
+            <input type="text" id="f-company">
+          </div>
+          <div class="field">
+            <label data-i18n="form_service_label">SERVICIO DE INTERÉS</label>
+            <select id="f-service">
+              <option data-i18n="opt_service1">Branding &amp; Identidad</option>
+              <option data-i18n="opt_service2">Diseño Web</option>
+              <option data-i18n="opt_service3">Redes Sociales</option>
+              <option data-i18n="opt_service4">Publicidad &amp; Performance</option>
+              <option data-i18n="opt_service5">No estoy segura</option>
+            </select>
+          </div>
+          <div class="field">
+            <label data-i18n="form_message">Cuéntanos tu proyecto</label>
+            <textarea id="f-message" required></textarea>
+          </div>
+          <label class="checkline">
+            <input type="checkbox" required>
+            <span data-i18n="form_privacy">He leído y acepto la política de privacidad.</span>
+          </label>
+          <button type="submit" class="btn btn-solid" style="justify-content:center;" data-i18n="form_submit">Enviar mensaje</button>
+          <p class="form-success" id="formSuccess"><span data-i18n="form_success">Mensaje recibido. Te escribimos muy pronto.</span></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="logo">
+      <b>DURDUC</b>
+      <span class="foot-tag" data-i18n="footer_tagline">Marcas que se notan.</span>
+    </div>
+    <div class="foot-meta">
+      <span>© <span id="year"></span> Durduc Corporation. <span data-i18n="footer_rights">Todos los derechos reservados.</span></span>
+      <span>Barcelona</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
